@@ -8,6 +8,12 @@ const recipes = [
     time: "10 min",
     source: "rorang_table",
     ingredients: ["Ssal somyeon (rice vermicelli)", "Gochujang 3T", "Gochugaru 2T", "Minced garlic 1T", "Vinegar 3T", "Blended pear 250ml"],
+    instructions: [
+      "Boil somyeon noodles according to package (usually 2–3 min), then rinse under cold water and drain well.",
+      "Mix gochujang, gochugaru, minced garlic, vinegar, and blended pear together in a bowl until smooth.",
+      "Toss cold noodles with the sauce. Add toppings like cucumber, boiled egg, or sesame seeds if you have them.",
+      "Serve immediately.",
+    ],
   },
   {
     id: 2, emoji: "🥟", name: "Bowl XLB",
@@ -16,6 +22,13 @@ const recipes = [
     time: "30 min",
     source: "oh_diningtable",
     ingredients: ["200g ground pork", "Dumpling wrappers", "Green onion 2T", "Minced garlic ½T", "Sesame oil 1T", "Oyster sauce 1T", "Soy sauce ½T", "Mirin 2T", "Water 100ml"],
+    instructions: [
+      "Mix ground pork with green onion, garlic, sesame oil, oyster sauce, soy sauce, and mirin.",
+      "Place the pork filling in a bowl. Pour water around the filling (not on top).",
+      "Lay dumpling wrappers over the top to cover the bowl like a lid.",
+      "Steam on high for 10–12 minutes until wrappers are translucent and pork is cooked through.",
+      "Serve straight from the bowl with dipping sauce.",
+    ],
   },
   {
     id: 3, emoji: "🫧", name: "Boba Pearl Dumplings",
@@ -24,6 +37,14 @@ const recipes = [
     time: "30 min",
     source: "eatswithjamie",
     ingredients: ["250g ground pork", "35g garlic chives", "⅛ tsp white pepper", "2 tsp cornstarch", "1 tbsp oyster sauce", "1 tsp sugar", "1 cup mini tapioca pearls"],
+    instructions: [
+      "Soak mini tapioca pearls in cold water for 30 minutes, then drain.",
+      "Mix ground pork with chopped garlic chives, white pepper, cornstarch, oyster sauce, and sugar.",
+      "Roll pork mixture into small balls (about 1 tbsp each).",
+      "Roll each ball in the soaked tapioca pearls until fully coated.",
+      "Steam on high heat for 15–18 minutes until tapioca turns translucent.",
+      "Serve with sweet chili sauce.",
+    ],
   },
   {
     id: 4, emoji: "🍤", name: "Air Fryer Rice Paper Shrimp",
@@ -32,6 +53,14 @@ const recipes = [
     time: "20 min",
     source: "saltsensitive",
     ingredients: ["Large shrimp (peeled)", "Rice paper sheets", "Chili oil 2T", "Soy sauce 1T", "Sugar 1 tsp", "Rice vinegar 1.5 tsp", "Garlic clove (minced)"],
+    instructions: [
+      "Briefly dip rice paper in water (just 1–2 seconds) — it'll soften more as it sits.",
+      "Place 2–3 shrimp on one half of the rice paper, fold over to sandwich them.",
+      "Repeat for all shrimp. Let them rest 1 min so the wrapper seals.",
+      "Air fry at 400°F (200°C) for 8–10 minutes, flipping halfway, until golden and crispy.",
+      "Mix chili oil, soy sauce, sugar, rice vinegar, and garlic into a sauce.",
+      "Toss crispy shrimp in the sauce and serve immediately.",
+    ],
   },
   {
     id: 5, emoji: "🔥", name: "Buldak Miyeok-guk Noodles",
@@ -40,6 +69,12 @@ const recipes = [
     time: "10 min",
     source: "jamesyworld",
     ingredients: ["500g pre-made miyeok-guk (seaweed soup)", "150g water", "1 pack Buldak STEW noodles"],
+    instructions: [
+      "Pour miyeok-guk and water into a pot and bring to a boil.",
+      "Add the Buldak stew noodles and cook for 3–4 minutes, stirring occasionally.",
+      "Add the sauce packet and mix well.",
+      "Serve hot, topped with the flake packet if included.",
+    ],
   },
   {
     id: 6, emoji: "🥚", name: "Sundubu Gyeran-jang Rice Bowl",
@@ -48,6 +83,13 @@ const recipes = [
     time: "10 min",
     source: "1min_cook",
     ingredients: ["Silken tofu", "1–2 eggs", "Soy sauce", "Gochugaru", "Garlic", "Green onion", "Sesame oil", "Cooked rice"],
+    instructions: [
+      "Soft-boil eggs for 6–7 minutes, then peel and marinate in soy sauce for at least 10 minutes.",
+      "Mix soy sauce, gochugaru, minced garlic, sliced green onion, and sesame oil into a sauce.",
+      "Slice silken tofu and plate over rice.",
+      "Pour the sauce over the tofu, then top with the soy egg (halved).",
+      "Drizzle with a little extra sesame oil and serve.",
+    ],
   },
   {
     id: 7, emoji: "🍤", name: "Ritz Cracker Shrimp Toast",
@@ -56,6 +98,13 @@ const recipes = [
     time: "25 min",
     source: "eatingwithkirby",
     ingredients: ["~18 Ritz crackers", "15–25 large shrimp (thawed)", "½ tbsp cornstarch", "1 tsp white pepper", "1 tbsp sesame oil", "¼ cup sesame seeds", "3 tbsp Japanese mayo", "1½ tbsp sriracha"],
+    instructions: [
+      "Pat shrimp dry, then mix with cornstarch, white pepper, and sesame oil.",
+      "Place 1–2 shrimp on each Ritz cracker and press gently to adhere.",
+      "Spread sesame seeds on a plate. Press cracker (shrimp-side down) into seeds to coat.",
+      "Air fry at 375°F (190°C) for 7–9 minutes until golden.",
+      "Mix Japanese mayo and sriracha. Drizzle or dip.",
+    ],
   },
   {
     id: 8, emoji: "🥦", name: "Smashed Broccoli",
@@ -64,6 +113,13 @@ const recipes = [
     time: "25 min",
     source: "buzzfeedtasty / groovyfoodiess",
     ingredients: ["Broccoli florets", "Olive oil", "Garlic", "Salt & pepper", "Parmesan (grated)"],
+    instructions: [
+      "Blanch broccoli florets in boiling salted water for 2–3 minutes, then drain and pat dry.",
+      "Arrange on a baking sheet. Use a flat-bottomed glass or mug to smash each floret.",
+      "Drizzle generously with olive oil, add minced garlic, salt, and pepper.",
+      "Roast at 425°F (220°C) for 20–25 minutes until edges are crispy.",
+      "Remove from oven, sprinkle parmesan on top, and serve.",
+    ],
   },
   {
     id: 9, emoji: "🥬", name: "Cabbage-Wrapped Mandu",
@@ -72,6 +128,12 @@ const recipes = [
     time: "5 min",
     source: "rorang_table",
     ingredients: ["Store-bought mandu (frozen)", "Cabbage leaves", "Soy sauce", "Vinegar", "Optional: scallions, chili"],
+    instructions: [
+      "Steam or microwave frozen mandu until cooked through (follow package instructions).",
+      "Wash and separate individual cabbage leaves.",
+      "Mix soy sauce and vinegar (1:1) for cho-ganjang dipping sauce. Add scallions or chili if using.",
+      "Wrap each dumpling in a cabbage leaf and dip into sauce.",
+    ],
   },
   {
     id: 10, emoji: "🌶️", name: "Kou Shui Ji",
@@ -80,6 +142,13 @@ const recipes = [
     time: "30 min",
     source: "daigasikfaan",
     ingredients: ["Chicken breast", "Ginger + scallion (poaching)", "Chili oil", "Sichuan peppercorn", "Soy sauce", "Black vinegar", "Sesame paste", "Garlic", "Sugar"],
+    instructions: [
+      "Poach chicken breast: bring water to boil with ginger and scallion. Add chicken, cover, reduce heat to low, and cook 15 min. Rest 10 min off heat.",
+      "Toast Sichuan peppercorns in a dry pan, then grind or crush.",
+      "Mix chili oil, soy sauce, black vinegar, sesame paste, minced garlic, sugar, and ground peppercorn into sauce.",
+      "Slice chicken thinly against the grain. Arrange on a plate.",
+      "Pour sauce over chicken. Garnish with scallions and sesame seeds.",
+    ],
   },
   {
     id: 11, emoji: "🥚", name: "Steamed Egg with Minced Pork",
@@ -88,6 +157,12 @@ const recipes = [
     time: "20 min",
     source: "eatingwithkirby",
     ingredients: ["3 eggs", "Warm water (1:1.5 ratio)", "150g ground pork", "Soy sauce", "Oyster sauce", "Garlic", "Cornstarch", "Sesame oil", "Scallions"],
+    instructions: [
+      "Beat eggs and mix with warm water (1:1.5 egg to water ratio). Strain through a sieve for silkier texture. Cover with plastic wrap.",
+      "Steam on medium-low heat for 12–15 minutes until just set.",
+      "Meanwhile, stir-fry ground pork with minced garlic, soy sauce, oyster sauce, and a splash of water. Thicken with cornstarch slurry.",
+      "Pour pork sauce over steamed egg. Drizzle with sesame oil and top with scallions.",
+    ],
   },
   {
     id: 12, emoji: "🥟", name: "Spicy Wontons with Chili Oil",
@@ -96,6 +171,12 @@ const recipes = [
     time: "15 min",
     source: "onehappybite",
     ingredients: ["Frozen wontons", "Chili oil", "Soy sauce", "Black vinegar (Chinkiang)", "Sesame paste or peanut butter", "Garlic", "Sugar", "Sesame oil", "Scallions"],
+    instructions: [
+      "Boil wontons in salted water until they float and cook through, about 5–6 minutes. Drain.",
+      "Mix chili oil, soy sauce, black vinegar, sesame paste (or peanut butter), minced garlic, sugar, and sesame oil into a sauce.",
+      "Toss warm wontons in the sauce.",
+      "Top with sliced scallions and extra chili oil. Serve immediately.",
+    ],
   },
   {
     id: 13, emoji: "🌯", name: "Spicy Shrimp Handroll",
@@ -104,6 +185,13 @@ const recipes = [
     time: "20 min",
     source: "ricezhangg",
     ingredients: ["Cooked shrimp", "Japanese mayo", "Sriracha or gochujang", "Nori sheets (halved)", "Sushi rice", "Cucumber", "Avocado (optional)"],
+    instructions: [
+      "Season sushi rice with a splash of rice vinegar, sugar, and salt while warm.",
+      "Mix cooked shrimp with Japanese mayo and sriracha (or gochujang) to taste.",
+      "Cut nori sheets in half. Lay rough side up.",
+      "Spoon a small amount of rice on the bottom-left corner. Add shrimp, cucumber strips, and avocado if using.",
+      "Fold into a cone shape. Eat immediately so the nori stays crispy.",
+    ],
   },
   {
     id: 14, emoji: "🍝", name: "Zucchini Orzo Salad",
@@ -112,6 +200,14 @@ const recipes = [
     time: "30 min",
     source: "dishingouthealth",
     ingredients: ["1 cup dry orzo", "2 medium zucchinis", "½ cup walnut halves", "¼ cup + 2T olive oil", "2T lemon juice", "¼ cup sliced pepperoncini", "¼ cup scallions", "2T fresh parsley", "1 garlic clove", "½ tsp coriander", "¼ cup parmesan"],
+    instructions: [
+      "Cook orzo in salted boiling water until al dente. Drain and toss with a bit of olive oil.",
+      "Slice zucchini into half-moons. Sauté in olive oil over high heat until golden, about 5 min. Season with salt.",
+      "Toast walnuts in a dry pan until fragrant.",
+      "Whisk together olive oil, lemon juice, minced garlic, and coriander for the dressing.",
+      "Combine orzo, zucchini, walnuts, pepperoncini, scallions, and parsley. Toss with dressing.",
+      "Top with parmesan. Serve warm or at room temperature.",
+    ],
   },
   {
     id: 15, emoji: "🥬", name: "Green Goddess Salad",
@@ -120,6 +216,12 @@ const recipes = [
     time: "15 min",
     source: "bakedbymelissa",
     ingredients: ["Cabbage (finely chopped)", "Cucumber", "Avocado", "Fresh basil", "Chives", "Garlic", "Lemon juice", "Olive oil", "Salt"],
+    instructions: [
+      "Blend avocado, fresh basil, chives, garlic, lemon juice, olive oil, and salt until smooth and creamy.",
+      "Finely chop cabbage and slice cucumber into thin pieces.",
+      "Toss cabbage and cucumber with the green goddess dressing.",
+      "Serve with chips, pita, or crusty bread for dipping.",
+    ],
   },
   {
     id: 16, emoji: "🍗", name: "Instant Pot HK Soy Sauce Chicken",
@@ -128,6 +230,13 @@ const recipes = [
     time: "45 min",
     source: "pressurecookrecipes",
     ingredients: ["Whole chicken or thighs", "Soy sauce", "Dark soy sauce", "Shaoxing wine", "Rock sugar", "Garlic", "Ginger", "Star anise", "Cinnamon"],
+    instructions: [
+      "Combine soy sauce, dark soy sauce, Shaoxing wine, rock sugar, garlic, ginger, star anise, and cinnamon with 1 cup water in the Instant Pot.",
+      "Add chicken, turning to coat. For a whole chicken, breast-side up.",
+      "Pressure cook on HIGH for 15 min (thighs) or 25 min (whole chicken). Natural release 10 min.",
+      "Optional: broil the chicken for 3–5 minutes to lacquer the skin.",
+      "Reduce the remaining sauce on sauté mode until slightly thickened. Pour over chicken.",
+    ],
   },
   {
     id: 17, emoji: "🥦", name: "Brussels Sprouts with Soy & Mustard",
@@ -136,6 +245,12 @@ const recipes = [
     time: "25 min",
     source: "slate",
     ingredients: ["Brussels sprouts (halved)", "Olive oil", "Salt", "Whole grain mustard", "Soy sauce"],
+    instructions: [
+      "Halve brussels sprouts and toss with olive oil and salt.",
+      "Roast cut-side down at 425°F (220°C) for 20–25 minutes until deeply caramelized.",
+      "Mix whole grain mustard and soy sauce (about 2:1 ratio).",
+      "Toss roasted sprouts in the mustard-soy mixture. Serve immediately.",
+    ],
   },
 ];
 
@@ -220,11 +335,21 @@ function RecipeDetail({ recipe, onBack }) {
       <div style={{ fontSize: 13, color: "#888", marginBottom: 16 }}>@{recipe.source} · {recipe.time}</div>
       <div style={{ fontSize: 14, color: "#555", marginBottom: 20, lineHeight: 1.6 }}>{recipe.desc}</div>
       <div style={{ fontSize: 13, fontWeight: 600, color: "#444", marginBottom: 10, textTransform: "uppercase", letterSpacing: "0.05em" }}>Ingredients</div>
-      <ul style={{ paddingLeft: 20, margin: 0 }}>
+      <ul style={{ paddingLeft: 20, margin: "0 0 24px 0" }}>
         {recipe.ingredients.map((ing, i) => (
           <li key={i} style={{ fontSize: 14, color: "#444", marginBottom: 6, lineHeight: 1.4 }}>{ing}</li>
         ))}
       </ul>
+      {recipe.instructions && (
+        <>
+          <div style={{ fontSize: 13, fontWeight: 600, color: "#444", marginBottom: 10, textTransform: "uppercase", letterSpacing: "0.05em" }}>Instructions</div>
+          <ol style={{ paddingLeft: 20, margin: 0 }}>
+            {recipe.instructions.map((step, i) => (
+              <li key={i} style={{ fontSize: 14, color: "#444", marginBottom: 10, lineHeight: 1.5 }}>{step}</li>
+            ))}
+          </ol>
+        </>
+      )}
     </div>
   );
 }
