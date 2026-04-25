@@ -137,6 +137,22 @@ const recipes = [
     source: "slate",
     ingredients: ["Brussels sprouts (halved)", "Olive oil", "Salt", "Whole grain mustard", "Soy sauce"],
   },
+  {
+    id: 18, emoji: "🥟", name: "Shrimp & Veggie Dumplings",
+    desc: "Steamed shrimp dumplings with blended broccoli and carrot filling. Served with chili oil.",
+    effort: ["some", "plenty"], vibe: ["chinese", "snacky", "surprise"], spice: ["none", "mild"],
+    time: "30 min",
+    source: "2days.delights",
+    ingredients: ["Shrimp paste", "Broccoli", "Carrots", "Wonton wrappers", "Black pepper", "Salt", "Soy sauce", "Chili oil"],
+    instructions: [
+      "Blanch the broccoli and carrots.",
+      "Drain and blend them separately using a food processor.",
+      "Mix the blended vegetables with shrimp paste. Season with black pepper, salt, and soy sauce to taste.",
+      "Place a spoonful of the mixture in the center of each wonton wrapper and fold to seal.",
+      "Steam the wontons for 10 minutes once the water is boiling.",
+      "Serve hot with chili oil and enjoy!",
+    ],
+  },
 ];
 
 const effortOptions = [
